@@ -1,5 +1,7 @@
 # Agent entry point
 
+**If your assignment is to REVIEW the original user requirement:** begin at [drafts/ORIGINAL-REQUEST-BRIEF.md](drafts/ORIGINAL-REQUEST-BRIEF.md) and [drafts/AGENT-REVIEW-PROMPT.md](drafts/AGENT-REVIEW-PROMPT.md). Do not mistake proposed architecture for already accepted requirements.
+
 Applies to **all** autonomous and coding agents. Read only the linked documents needed for the assigned task; don't recursively ingest the whole repo.
 
 1. Read [README.md](README.md) for routing and [WORKFLOW.md](WORKFLOW.md) for the two execution flows.

@@ -2,6 +2,8 @@
 
 **GitHub-first · Evidence-driven · Agent-agnostic · Low-cost entrepreneurship**
 
+> **For independent agent review:** Start with the **[original request brief (DISCUSSION DRAFT)](drafts/ORIGINAL-REQUEST-BRIEF.md)**. It captures the stakeholder's initial goals and constraints separately from the proposed architecture. Use the [agent review prompt](drafts/AGENT-REVIEW-PROMPT.md) to challenge this starter kit before treating it as approved design.
+
 A small, inspectable operating system for one entrepreneur to discover, validate, launch and maintain subscription products or vertical SaaS. **Treat 3–5 candidates as validation hypotheses, not 3–5 simultaneous engineering projects.** Seek real payment signals, then concentrate effort on a winner.
 
 ## Start here
