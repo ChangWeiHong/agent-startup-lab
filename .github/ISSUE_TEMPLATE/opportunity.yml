@@ -1,0 +1,33 @@
+name: Opportunity
+description: Research a narrow paid problem before building
+title: "OPP: "
+labels: []
+body:
+  - type: textarea
+    id: buyer
+    attributes:
+      label: Buyer and triggering problem
+      description: Who experiences what pain, at what moment, and how often?
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Existing alternatives and evidence
+      description: Links, observation dates, current workarounds and limits
+    validations:
+      required: true
+  - type: textarea
+    id: payment
+    attributes:
+      label: Paid hypothesis
+      description: Who might pay how much, and why repeatedly?
+    validations:
+      required: true
+  - type: textarea
+    id: reach
+    attributes:
+      label: Distribution, falsification and next action
+      description: How can you reach prospects cheaply, what would disprove the idea, who owns the next step?
+    validations:
+      required: true

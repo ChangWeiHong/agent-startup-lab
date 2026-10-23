@@ -1,0 +1,33 @@
+name: Agent work item
+description: Scoped task for any autonomous or coding agent
+title: "TASK: "
+labels: []
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective, owner and task ID
+      description: One accountable owner, issue/venture/experiment links and deduplication key if scheduled
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Scoped inputs and canonical references
+      description: Exact repo paths, PRD versions, related evidence
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope, non-goals and constraints
+      description: Permissions, data handling and explicit no-go operations
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Deliverables, evidence, acceptance, approval
+      description: How completion will be verified; what needs explicit human authorization
+    validations:
+      required: true

@@ -1,0 +1,32 @@
+name: Validation experiment
+description: Test paid demand with evidence and a defined cap
+title: "EXP: "
+labels: []
+body:
+  - type: input
+    id: related
+    attributes:
+      label: Opportunity / venture link
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Buyer, paid hypothesis and method
+      description: Describe segment, offer, price, test design, expected event, exposure window
+    validations:
+      required: true
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Tracking, success/failure thresholds
+      description: Metric definitions, denominators, attribution, sample-size limitations, stop rule
+    validations:
+      required: true
+  - type: textarea
+    id: gates
+    attributes:
+      label: Budget, approval, constraints and evidence
+      description: No approval = RM0 spend. Include who authorizes and where anonymized results will be kept.
+    validations:
+      required: true
